@@ -15,7 +15,7 @@ void draw(){
     if (linhaX.size()%2==0){// Se a divisão do número de elementos de linhaX por 2 tiver resto igual a zero, então:
         for (int i = 0; i< linhaX.size(); i+=2){// Laço de repetição que será executado em um número igual a metade do numero de elementos da ArrayList LinhaX
             strokeWeight(1);// Definindo a grossura da linha
-            line(linhaX.get(i),linhaY.get(i),linhaX.get(i+1),linhaY.get(i+1));// Pintando uma linha entre a  atual cordenada e a próxima.
+            line(linhaX.get(i),linhaY.get(i),linhaX.get(i+1),linhaY.get(i+1));// Pintando uma linha entre a  atual e a próxima cordenada.
         }
     }
 }
