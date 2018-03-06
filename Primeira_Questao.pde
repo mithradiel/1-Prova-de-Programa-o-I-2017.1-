@@ -25,7 +25,7 @@ void mouseReleased(){// Método que é chamado quando o um botão do mouse deixa
 }
 
 //** variável i = 0 que enquanto for menor que o valor do tamanho de elementos do ArrayList linhaX
-// vai ter seu 1 incrementado ao seu valor a cada vez que as instruções forem repetidas
+// vai ter seu valor incrementado por 1 a cada vez que as instruções forem repetidas
 // dessa forma executando as instruções do for para cada elemento da ArrayList
 
 //* Utilizei Arraylist pois pareceu mais simples de adicionar elementos ao fim da ArrayList(Ex.: linhaX.add(mouseX)) que de uma lista normal (?)
